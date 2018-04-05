@@ -1,0 +1,6 @@
+framework module Wasabi_iOS {
+  umbrella header "Wasabi-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

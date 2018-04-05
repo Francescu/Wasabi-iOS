@@ -1,0 +1,27 @@
+{
+  "name": "Wasabi-iOS",
+  "version": "0.1.0",
+  "summary": "A short description of Wasabi-iOS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/francescu/Wasabi-iOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "francescu": "francescu.santoni@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/francescu/Wasabi-iOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "Wasabi-iOS/Classes/**/*",
+  "dependencies": {
+    "BrightFutures": [
+
+    ]
+  }
+}

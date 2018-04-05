@@ -1,5 +1,4 @@
 import XCTest
-import Wasabi-iOS
 
 class Tests: XCTestCase {
     

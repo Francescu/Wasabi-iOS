@@ -1,0 +1,1224 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		022E4F514A2A0B20AD41E2E71802C4B6 /* Result-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B35C719B77592A072B5DD49ADA04D453 /* Result-dummy.m */; };
+		03A121CFE13FFEA740F9C55D15BB74C2 /* SequenceType+BrightFutures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2076FCC40588EB68BA6C447DE97249 /* SequenceType+BrightFutures.swift */; };
+		0457A1C9FE3AE4576BE286D9F8C49F93 /* NSOperationQueue+BrightFutures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D7D8419C12DA996C04C20BFEE15571 /* NSOperationQueue+BrightFutures.swift */; };
+		0988FE252076D13C005AE3D1 /* WasabiRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0988FE242076D13C005AE3D1 /* WasabiRequests.swift */; };
+		0A3573EAB1C05D0FAB3E7BA2A91A946D /* Pods-Wasabi-iOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D65C1858CF632D153D0D35A4D18330 /* Pods-Wasabi-iOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15F801282F3290E37F11D67056162741 /* Number+BrightFutures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1C22BDD78766A94CF1382EA45AEED4 /* Number+BrightFutures.swift */; };
+		1D09397B9B6F32408C40509E8BA3B3B5 /* AsyncType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DB2DD7F542C6EB708B5D5B0A35CB25 /* AsyncType.swift */; };
+		2244F884A18E3F9BFF659C460C1C1F97 /* AsyncType+ResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E99A7BB9B3614CB6E6ADDD089F97C14 /* AsyncType+ResultType.swift */; };
+		3CC7CB9F62C114C909F57236D733B015 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F383A3CA45A3B4353C4AD3714C94A30 /* Foundation.framework */; };
+		3EEEE02AD5C45BACC1F9381B9DB41431 /* MutableAsyncType+ResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB50F8E1EE1DDF353EA3162185548CA9 /* MutableAsyncType+ResultType.swift */; };
+		47DCED7C2C006DFB42914EF978EF3BC0 /* WasabiAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C39E3022FDBDD02E827FAED9821D03 /* WasabiAPIClient.swift */; };
+		495C3055254AF5A66CF1D1690513AD13 /* ExecutionContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083A7577549EF1CAD0FBB31D27C56DE /* ExecutionContext.swift */; };
+		4BA88411A73D95E600EF8420B7A1592D /* InvalidationToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A25E75A2575F25238A84570FE3B06B9 /* InvalidationToken.swift */; };
+		560783319F58225E8ABC65F469B17D83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F383A3CA45A3B4353C4AD3714C94A30 /* Foundation.framework */; };
+		5888C725C19F3C8C43B1AEFA7917C33E /* AsyncType+Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C903E2FD803AA3DD61B9AFDED60D11E /* AsyncType+Debug.swift */; };
+		627C8C5A42DDC99E253ECAAD7E7D0A80 /* Pods-Wasabi-iOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E4B8632EB22EE69F02D4EC4E31D8833 /* Pods-Wasabi-iOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68BDDC42B4853CC16D3B16E64ABBFE1B /* Wasabi-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 124F6B0F9B700C15E209FECA64F1BC8D /* Wasabi-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D1DF618BEB5A0FF80DEB66ACF63B4A2 /* Wasabi-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CB619992978CAE7A7842F04E56E1F1 /* Wasabi-iOS-dummy.m */; };
+		6D91A43E587F9D2C8A6988C6932E7A12 /* ResultProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74CBD92C351AC66D5ECC73EDD5CDCF5 /* ResultProtocol.swift */; };
+		6E394CC6E9C27F951DB8C6DF7CC7BA4C /* BrightFutures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69475CB6A4AA74F8F8CF6DEAF202A217 /* BrightFutures.framework */; };
+		77217E1A9729A91F0AE9CACF00E0B9AB /* Result-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7FF6F61C4F390A0434996C47C5A8BF3 /* Result-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77A70C82BD19F6354729CBD70808FDEC /* WasabiAPITypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19C27A706DB0735471C04893CF712C2 /* WasabiAPITypes.swift */; };
+		7A94090F9E6E52CB38B11A328B01BA8C /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8F4258A1640936043E3C8B32027C17 /* Async.swift */; };
+		90D28C0331787AE73F19F7C148A2BA4D /* MutableAsyncType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91394C006A160DA94A85A7EDCDFD1626 /* MutableAsyncType.swift */; };
+		9401A28AA74E0400BD745C6B048AFA76 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FE8FA746D48BBDBC0894A194ADB849 /* Result.framework */; };
+		94FE42158236D806F67FD99D22E19F49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F383A3CA45A3B4353C4AD3714C94A30 /* Foundation.framework */; };
+		964859B824FF437D8BADB3DD72E26B69 /* Dispatch+BrightFutures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7163B5A5DC41F4B8C8A0AC9E1D20DE08 /* Dispatch+BrightFutures.swift */; };
+		9F6262C79DBD7F79FD9C5C5659FB2D2E /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4304312B0A97B48EEEC1A2FA13A34E /* Promise.swift */; };
+		B050B15EC964DC20A071903FDF1E5ABD /* Result+BrightFutures.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6727FC4B416FB68B0251CB31205382E /* Result+BrightFutures.swift */; };
+		B4424EEA6CDBDEED99442AC2FB3FFB5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F383A3CA45A3B4353C4AD3714C94A30 /* Foundation.framework */; };
+		B56CF8D1DB2BB0B5A196A44C8E538762 /* BrightFutures-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E51F8DC33952D7AC8370E62215DD56AA /* BrightFutures-dummy.m */; };
+		C7DB6B74FCB3324D18066D290866FB95 /* Pods-Wasabi-iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B27DA2EE4FBFCFED8F27B2D2E4FAA333 /* Pods-Wasabi-iOS_Example-dummy.m */; };
+		D0C1F7F0817E33CB5F8FFA1A1073CB4B /* Pods-Wasabi-iOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2692E4AA8E469ED7D75FC161F7606F8 /* Pods-Wasabi-iOS_Tests-dummy.m */; };
+		D499630C42A1BC53E7BE2D1EE20819B9 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80888FF337D2D1C988E89848AF3497AE /* Result.swift */; };
+		D88642295E1FB6EB5FB22B2ABBA6F284 /* BrightFutures-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7485079377E973AF3BECADE446FE9B1A /* BrightFutures-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F09DEF4A27C3749B8AD1D8D09DD5AA16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F383A3CA45A3B4353C4AD3714C94A30 /* Foundation.framework */; };
+		F28FFD679440F582FA473A1E816262E4 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EE7DC5BBD7B56B0F72E44CC62490E4 /* Errors.swift */; };
+		FDD7C0AAC87A8775438C43BC31B67A96 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FE8FA746D48BBDBC0894A194ADB849 /* Result.framework */; };
+		FF6B85305A1A7402CD4ECA474A25D080 /* Future.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16027B4C23612B8A6AC3B80405801655 /* Future.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FAC73B7D166D94775264C430FF98A6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98CC12EEDCA0ADE298C62268125E8304;
+			remoteInfo = Result;
+		};
+		764399A9BAAD30FC564FC48E48FDB718 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98CC12EEDCA0ADE298C62268125E8304;
+			remoteInfo = Result;
+		};
+		78E67258EEB54DB4AF69A0A3AF93FD8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F6B6B06AE4A448F227A8F9FF648BC10;
+			remoteInfo = "Pods-Wasabi-iOS_Example";
+		};
+		933E3F58F348BE8717F16D5D08ED1397 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4551A02DCD158A5143D803E0FE76C4F6;
+			remoteInfo = BrightFutures;
+		};
+		A48E8FDB3BEF5800600422FD4DA6DC8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98CC12EEDCA0ADE298C62268125E8304;
+			remoteInfo = Result;
+		};
+		A4FA35946433CA5D8ECCDD9B124A4250 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4551A02DCD158A5143D803E0FE76C4F6;
+			remoteInfo = BrightFutures;
+		};
+		FDE3D60C3E8DB9A755036F8052BDE3D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9635253DB78A55B225F1CD49AF36074E;
+			remoteInfo = "Wasabi-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01B1E35450D4260436244F2E31A8CB9A /* Wasabi-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Wasabi-iOS.xcconfig"; sourceTree = "<group>"; };
+		01FE8FA746D48BBDBC0894A194ADB849 /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0988FE242076D13C005AE3D1 /* WasabiRequests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WasabiRequests.swift; path = "Wasabi-iOS/Classes/WasabiRequests.swift"; sourceTree = "<group>"; };
+		0A9302F7558973E6C645E1A61C93F79E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E8F4258A1640936043E3C8B32027C17 /* Async.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Async.swift; path = Sources/BrightFutures/Async.swift; sourceTree = "<group>"; };
+		12023C2B6D1D68344494E8318EBB24B7 /* Result.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Result.xcconfig; sourceTree = "<group>"; };
+		124F6B0F9B700C15E209FECA64F1BC8D /* Wasabi-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Wasabi-iOS-umbrella.h"; sourceTree = "<group>"; };
+		16027B4C23612B8A6AC3B80405801655 /* Future.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Future.swift; path = Sources/BrightFutures/Future.swift; sourceTree = "<group>"; };
+		1A25E75A2575F25238A84570FE3B06B9 /* InvalidationToken.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InvalidationToken.swift; path = Sources/BrightFutures/InvalidationToken.swift; sourceTree = "<group>"; };
+		1A38110F75EC54C939A2F879FA132D90 /* BrightFutures.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BrightFutures.modulemap; sourceTree = "<group>"; };
+		1F8C1A0459B7C660FEAF38518509F33C /* Pods-Wasabi-iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Wasabi-iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2083A7577549EF1CAD0FBB31D27C56DE /* ExecutionContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExecutionContext.swift; path = Sources/BrightFutures/ExecutionContext.swift; sourceTree = "<group>"; };
+		255B7C1C8D25619029EBC7B8B687FE1F /* Pods-Wasabi-iOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Wasabi-iOS_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2A42C326E17687CE9ACF5C6D1ACB611A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D0D376A8EC03AA1B23D5548E6EE0C51 /* Result-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Result-prefix.pch"; sourceTree = "<group>"; };
+		3E4B8632EB22EE69F02D4EC4E31D8833 /* Pods-Wasabi-iOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Wasabi-iOS_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4E2076FCC40588EB68BA6C447DE97249 /* SequenceType+BrightFutures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SequenceType+BrightFutures.swift"; path = "Sources/BrightFutures/SequenceType+BrightFutures.swift"; sourceTree = "<group>"; };
+		4E3359A31900AEA2A12937A6AB4E535E /* BrightFutures-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BrightFutures-prefix.pch"; sourceTree = "<group>"; };
+		4E523F374BA60BB98CD6F75B177E6772 /* Pods-Wasabi-iOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Wasabi-iOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4F383A3CA45A3B4353C4AD3714C94A30 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		57C39E3022FDBDD02E827FAED9821D03 /* WasabiAPIClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WasabiAPIClient.swift; path = "Wasabi-iOS/Classes/WasabiAPIClient.swift"; sourceTree = "<group>"; };
+		5C4304312B0A97B48EEEC1A2FA13A34E /* Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Promise.swift; path = Sources/BrightFutures/Promise.swift; sourceTree = "<group>"; };
+		63D65C1858CF632D153D0D35A4D18330 /* Pods-Wasabi-iOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Wasabi-iOS_Example-umbrella.h"; sourceTree = "<group>"; };
+		67CB619992978CAE7A7842F04E56E1F1 /* Wasabi-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Wasabi-iOS-dummy.m"; sourceTree = "<group>"; };
+		69475CB6A4AA74F8F8CF6DEAF202A217 /* BrightFutures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BrightFutures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E152D5FE882BA324F1BAFD064B636DD /* Pods-Wasabi-iOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Wasabi-iOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6E99A7BB9B3614CB6E6ADDD089F97C14 /* AsyncType+ResultType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AsyncType+ResultType.swift"; path = "Sources/BrightFutures/AsyncType+ResultType.swift"; sourceTree = "<group>"; };
+		7163B5A5DC41F4B8C8A0AC9E1D20DE08 /* Dispatch+BrightFutures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Dispatch+BrightFutures.swift"; path = "Sources/BrightFutures/Dispatch+BrightFutures.swift"; sourceTree = "<group>"; };
+		7485079377E973AF3BECADE446FE9B1A /* BrightFutures-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BrightFutures-umbrella.h"; sourceTree = "<group>"; };
+		76DB2DD7F542C6EB708B5D5B0A35CB25 /* AsyncType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncType.swift; path = Sources/BrightFutures/AsyncType.swift; sourceTree = "<group>"; };
+		7C4598444B9BA8AF3103AAD15A2D52FE /* Pods-Wasabi-iOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Wasabi-iOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7C903E2FD803AA3DD61B9AFDED60D11E /* AsyncType+Debug.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AsyncType+Debug.swift"; path = "Sources/BrightFutures/AsyncType+Debug.swift"; sourceTree = "<group>"; };
+		80888FF337D2D1C988E89848AF3497AE /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Result/Result.swift; sourceTree = "<group>"; };
+		81E12DE6C91B31172D0C74B94680CFE7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		85B7EC05C23CA3C1AA6D5C4AADD32650 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F393A389C163E2EA7A3AB58F438A0E5 /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90C63663A4A722AB93E12FCA773F1A6F /* Wasabi_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Wasabi_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91394C006A160DA94A85A7EDCDFD1626 /* MutableAsyncType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MutableAsyncType.swift; path = Sources/BrightFutures/MutableAsyncType.swift; sourceTree = "<group>"; };
+		9317821D1B0A35C55FA3517D8F145FDC /* Wasabi-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Wasabi-iOS.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95D7D8419C12DA996C04C20BFEE15571 /* NSOperationQueue+BrightFutures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSOperationQueue+BrightFutures.swift"; path = "Sources/BrightFutures/NSOperationQueue+BrightFutures.swift"; sourceTree = "<group>"; };
+		9F6C744D8CC59D1955E808AF1CBB462C /* Pods-Wasabi-iOS_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Wasabi-iOS_Example-resources.sh"; sourceTree = "<group>"; };
+		A19C27A706DB0735471C04893CF712C2 /* WasabiAPITypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WasabiAPITypes.swift; path = "Wasabi-iOS/Classes/WasabiAPITypes.swift"; sourceTree = "<group>"; };
+		A8D4C8F0C4AECC98B9614C2AB730E5F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9A39CF862C925E17870B8FBFD49ABB8 /* Pods-Wasabi-iOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Wasabi-iOS_Tests.modulemap"; sourceTree = "<group>"; };
+		B1EE7DC5BBD7B56B0F72E44CC62490E4 /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = Sources/BrightFutures/Errors.swift; sourceTree = "<group>"; };
+		B27DA2EE4FBFCFED8F27B2D2E4FAA333 /* Pods-Wasabi-iOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Wasabi-iOS_Example-dummy.m"; sourceTree = "<group>"; };
+		B2C46B6D554341AD34B6EC3089220DE9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2C8504A17D7C3CB5C83AE9049A42D16 /* Wasabi-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Wasabi-iOS-prefix.pch"; sourceTree = "<group>"; };
+		B35C719B77592A072B5DD49ADA04D453 /* Result-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Result-dummy.m"; sourceTree = "<group>"; };
+		BA110ED6871964ABA6A2AF75EFB50660 /* BrightFutures.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BrightFutures.xcconfig; sourceTree = "<group>"; };
+		BB50F8E1EE1DDF353EA3162185548CA9 /* MutableAsyncType+ResultType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MutableAsyncType+ResultType.swift"; path = "Sources/BrightFutures/MutableAsyncType+ResultType.swift"; sourceTree = "<group>"; };
+		BEB0794C87475976F27CD05E366F7B53 /* BrightFutures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BrightFutures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2D1A6FC7E48FC987A5177746D7E81A /* Pods_Wasabi_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wasabi_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C31C849B4A3ADB5F44F83C1B3DA65169 /* Wasabi-iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = "Wasabi-iOS.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C42C3778BD5A9C9C5AE2AE23C5E82F68 /* Result.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Result.modulemap; sourceTree = "<group>"; };
+		C4F08C48322366B37C22AF42F3A4DABE /* Pods_Wasabi_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wasabi_iOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5BC7F0D6BFFAAF1E6655AAD625A8289 /* Pods-Wasabi-iOS_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Wasabi-iOS_Tests-resources.sh"; sourceTree = "<group>"; };
+		C6727FC4B416FB68B0251CB31205382E /* Result+BrightFutures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Result+BrightFutures.swift"; path = "Sources/BrightFutures/Result+BrightFutures.swift"; sourceTree = "<group>"; };
+		C74CBD92C351AC66D5ECC73EDD5CDCF5 /* ResultProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResultProtocol.swift; path = Result/ResultProtocol.swift; sourceTree = "<group>"; };
+		C7FF6F61C4F390A0434996C47C5A8BF3 /* Result-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Result-umbrella.h"; sourceTree = "<group>"; };
+		CA66DA2F322E4F20BCD2EE2ADCA9691C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DA4FA154FD502C2111B11FBA31DE575E /* Pods-Wasabi-iOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Wasabi-iOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E51F8DC33952D7AC8370E62215DD56AA /* BrightFutures-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BrightFutures-dummy.m"; sourceTree = "<group>"; };
+		EB6D8E8E033D6BD5313EFA7B23AAF489 /* Pods-Wasabi-iOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Wasabi-iOS_Example.modulemap"; sourceTree = "<group>"; };
+		F264E99CEF028E924515FB77DC84AB78 /* Pods-Wasabi-iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Wasabi-iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F2692E4AA8E469ED7D75FC161F7606F8 /* Pods-Wasabi-iOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Wasabi-iOS_Tests-dummy.m"; sourceTree = "<group>"; };
+		F8A36DEAA0851DD85DFA00B55F9ADF93 /* Pods-Wasabi-iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Wasabi-iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD1C22BDD78766A94CF1382EA45AEED4 /* Number+BrightFutures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Number+BrightFutures.swift"; path = "Sources/BrightFutures/Number+BrightFutures.swift"; sourceTree = "<group>"; };
+		FE82F96BF33CFA95BD896D728C983296 /* Pods-Wasabi-iOS_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Wasabi-iOS_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		FF4373E09F9D92E3FD364E24E0DCDA2E /* Pods-Wasabi-iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Wasabi-iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B58BC64EC345821E285E5CFB8A35807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E394CC6E9C27F951DB8C6DF7CC7BA4C /* BrightFutures.framework in Frameworks */,
+				B4424EEA6CDBDEED99442AC2FB3FFB5C /* Foundation.framework in Frameworks */,
+				9401A28AA74E0400BD745C6B048AFA76 /* Result.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38CB1092BDC921FC648FB1EAD99D9361 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FE42158236D806F67FD99D22E19F49 /* Foundation.framework in Frameworks */,
+				FDD7C0AAC87A8775438C43BC31B67A96 /* Result.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44F018AA5AAAEC5333D68F259787BA00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				560783319F58225E8ABC65F469B17D83 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731EE8760A7833E2EB3795CFFF89A2F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09DEF4A27C3749B8AD1D8D09DD5AA16 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC846C5D54A6237608C0F6119E60EB13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC7CB9F62C114C909F57236D733B015 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AAC75627061BCAD3B2C238771D323CF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A42C326E17687CE9ACF5C6D1ACB611A /* Info.plist */,
+				C42C3778BD5A9C9C5AE2AE23C5E82F68 /* Result.modulemap */,
+				12023C2B6D1D68344494E8318EBB24B7 /* Result.xcconfig */,
+				B35C719B77592A072B5DD49ADA04D453 /* Result-dummy.m */,
+				3D0D376A8EC03AA1B23D5548E6EE0C51 /* Result-prefix.pch */,
+				C7FF6F61C4F390A0434996C47C5A8BF3 /* Result-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Result";
+			sourceTree = "<group>";
+		};
+		1EF4746010F0BF9818D74B8B4A3418A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEB0794C87475976F27CD05E366F7B53 /* BrightFutures.framework */,
+				BF2D1A6FC7E48FC987A5177746D7E81A /* Pods_Wasabi_iOS_Example.framework */,
+				C4F08C48322366B37C22AF42F3A4DABE /* Pods_Wasabi_iOS_Tests.framework */,
+				8F393A389C163E2EA7A3AB58F438A0E5 /* Result.framework */,
+				90C63663A4A722AB93E12FCA773F1A6F /* Wasabi_iOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AE9ADE100902FC561E754F44F3B0873 /* Pods-Wasabi-iOS_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				85B7EC05C23CA3C1AA6D5C4AADD32650 /* Info.plist */,
+				A9A39CF862C925E17870B8FBFD49ABB8 /* Pods-Wasabi-iOS_Tests.modulemap */,
+				6E152D5FE882BA324F1BAFD064B636DD /* Pods-Wasabi-iOS_Tests-acknowledgements.markdown */,
+				7C4598444B9BA8AF3103AAD15A2D52FE /* Pods-Wasabi-iOS_Tests-acknowledgements.plist */,
+				F2692E4AA8E469ED7D75FC161F7606F8 /* Pods-Wasabi-iOS_Tests-dummy.m */,
+				FE82F96BF33CFA95BD896D728C983296 /* Pods-Wasabi-iOS_Tests-frameworks.sh */,
+				C5BC7F0D6BFFAAF1E6655AAD625A8289 /* Pods-Wasabi-iOS_Tests-resources.sh */,
+				3E4B8632EB22EE69F02D4EC4E31D8833 /* Pods-Wasabi-iOS_Tests-umbrella.h */,
+				F8A36DEAA0851DD85DFA00B55F9ADF93 /* Pods-Wasabi-iOS_Tests.debug.xcconfig */,
+				1F8C1A0459B7C660FEAF38518509F33C /* Pods-Wasabi-iOS_Tests.release.xcconfig */,
+			);
+			name = "Pods-Wasabi-iOS_Tests";
+			path = "Target Support Files/Pods-Wasabi-iOS_Tests";
+			sourceTree = "<group>";
+		};
+		3B586C5B24FBAD8C89D5D592FF097A5D /* Wasabi-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0988FE242076D13C005AE3D1 /* WasabiRequests.swift */,
+				57C39E3022FDBDD02E827FAED9821D03 /* WasabiAPIClient.swift */,
+				A19C27A706DB0735471C04893CF712C2 /* WasabiAPITypes.swift */,
+				8F93F1A3DF8A9F650B9671E8E1083CB1 /* Pod */,
+				50CC6715C29C0367B32C048686A305EE /* Support Files */,
+			);
+			name = "Wasabi-iOS";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		50143A97BFA2C2C351A9AD3C7F29451A /* Pods-Wasabi-iOS_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B2C46B6D554341AD34B6EC3089220DE9 /* Info.plist */,
+				EB6D8E8E033D6BD5313EFA7B23AAF489 /* Pods-Wasabi-iOS_Example.modulemap */,
+				DA4FA154FD502C2111B11FBA31DE575E /* Pods-Wasabi-iOS_Example-acknowledgements.markdown */,
+				4E523F374BA60BB98CD6F75B177E6772 /* Pods-Wasabi-iOS_Example-acknowledgements.plist */,
+				B27DA2EE4FBFCFED8F27B2D2E4FAA333 /* Pods-Wasabi-iOS_Example-dummy.m */,
+				255B7C1C8D25619029EBC7B8B687FE1F /* Pods-Wasabi-iOS_Example-frameworks.sh */,
+				9F6C744D8CC59D1955E808AF1CBB462C /* Pods-Wasabi-iOS_Example-resources.sh */,
+				63D65C1858CF632D153D0D35A4D18330 /* Pods-Wasabi-iOS_Example-umbrella.h */,
+				F264E99CEF028E924515FB77DC84AB78 /* Pods-Wasabi-iOS_Example.debug.xcconfig */,
+				FF4373E09F9D92E3FD364E24E0DCDA2E /* Pods-Wasabi-iOS_Example.release.xcconfig */,
+			);
+			name = "Pods-Wasabi-iOS_Example";
+			path = "Target Support Files/Pods-Wasabi-iOS_Example";
+			sourceTree = "<group>";
+		};
+		50CC6715C29C0367B32C048686A305EE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8D4C8F0C4AECC98B9614C2AB730E5F7 /* Info.plist */,
+				9317821D1B0A35C55FA3517D8F145FDC /* Wasabi-iOS.modulemap */,
+				01B1E35450D4260436244F2E31A8CB9A /* Wasabi-iOS.xcconfig */,
+				67CB619992978CAE7A7842F04E56E1F1 /* Wasabi-iOS-dummy.m */,
+				B2C8504A17D7C3CB5C83AE9049A42D16 /* Wasabi-iOS-prefix.pch */,
+				124F6B0F9B700C15E209FECA64F1BC8D /* Wasabi-iOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Wasabi-iOS";
+			sourceTree = "<group>";
+		};
+		57BA18353DF622FB0B3508D7AF1F63D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA843269DE055175C9DF590BB1A0DB37 /* BrightFutures */,
+				AF1B1014DCF66A161514BFA2FE4D5566 /* Result */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		64EF8AF8B95EB61DD8EA049068AD38CE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A38110F75EC54C939A2F879FA132D90 /* BrightFutures.modulemap */,
+				BA110ED6871964ABA6A2AF75EFB50660 /* BrightFutures.xcconfig */,
+				E51F8DC33952D7AC8370E62215DD56AA /* BrightFutures-dummy.m */,
+				4E3359A31900AEA2A12937A6AB4E535E /* BrightFutures-prefix.pch */,
+				7485079377E973AF3BECADE446FE9B1A /* BrightFutures-umbrella.h */,
+				0A9302F7558973E6C645E1A61C93F79E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BrightFutures";
+			sourceTree = "<group>";
+		};
+		650A140EE621C421A3F10C7E77DD0235 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4F383A3CA45A3B4353C4AD3714C94A30 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		75D60990B287CF0DDB277E218C1AF1A6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B586C5B24FBAD8C89D5D592FF097A5D /* Wasabi-iOS */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				75D60990B287CF0DDB277E218C1AF1A6 /* Development Pods */,
+				C4F368F1BB3C6B450D02C17B06A43FF2 /* Frameworks */,
+				57BA18353DF622FB0B3508D7AF1F63D6 /* Pods */,
+				1EF4746010F0BF9818D74B8B4A3418A8 /* Products */,
+				FD55E571EC110B3B30EAC322597A6ECC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8F93F1A3DF8A9F650B9671E8E1083CB1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				81E12DE6C91B31172D0C74B94680CFE7 /* LICENSE */,
+				CA66DA2F322E4F20BCD2EE2ADCA9691C /* README.md */,
+				C31C849B4A3ADB5F44F83C1B3DA65169 /* Wasabi-iOS.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		AF1B1014DCF66A161514BFA2FE4D5566 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				80888FF337D2D1C988E89848AF3497AE /* Result.swift */,
+				C74CBD92C351AC66D5ECC73EDD5CDCF5 /* ResultProtocol.swift */,
+				0AAC75627061BCAD3B2C238771D323CF /* Support Files */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		C4F368F1BB3C6B450D02C17B06A43FF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69475CB6A4AA74F8F8CF6DEAF202A217 /* BrightFutures.framework */,
+				01FE8FA746D48BBDBC0894A194ADB849 /* Result.framework */,
+				650A140EE621C421A3F10C7E77DD0235 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA843269DE055175C9DF590BB1A0DB37 /* BrightFutures */ = {
+			isa = PBXGroup;
+			children = (
+				0E8F4258A1640936043E3C8B32027C17 /* Async.swift */,
+				76DB2DD7F542C6EB708B5D5B0A35CB25 /* AsyncType.swift */,
+				7C903E2FD803AA3DD61B9AFDED60D11E /* AsyncType+Debug.swift */,
+				6E99A7BB9B3614CB6E6ADDD089F97C14 /* AsyncType+ResultType.swift */,
+				7163B5A5DC41F4B8C8A0AC9E1D20DE08 /* Dispatch+BrightFutures.swift */,
+				B1EE7DC5BBD7B56B0F72E44CC62490E4 /* Errors.swift */,
+				2083A7577549EF1CAD0FBB31D27C56DE /* ExecutionContext.swift */,
+				16027B4C23612B8A6AC3B80405801655 /* Future.swift */,
+				1A25E75A2575F25238A84570FE3B06B9 /* InvalidationToken.swift */,
+				91394C006A160DA94A85A7EDCDFD1626 /* MutableAsyncType.swift */,
+				BB50F8E1EE1DDF353EA3162185548CA9 /* MutableAsyncType+ResultType.swift */,
+				95D7D8419C12DA996C04C20BFEE15571 /* NSOperationQueue+BrightFutures.swift */,
+				FD1C22BDD78766A94CF1382EA45AEED4 /* Number+BrightFutures.swift */,
+				5C4304312B0A97B48EEEC1A2FA13A34E /* Promise.swift */,
+				C6727FC4B416FB68B0251CB31205382E /* Result+BrightFutures.swift */,
+				4E2076FCC40588EB68BA6C447DE97249 /* SequenceType+BrightFutures.swift */,
+				64EF8AF8B95EB61DD8EA049068AD38CE /* Support Files */,
+			);
+			path = BrightFutures;
+			sourceTree = "<group>";
+		};
+		FD55E571EC110B3B30EAC322597A6ECC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				50143A97BFA2C2C351A9AD3C7F29451A /* Pods-Wasabi-iOS_Example */,
+				2AE9ADE100902FC561E754F44F3B0873 /* Pods-Wasabi-iOS_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		49FC9E2A2A3595A5A25198389607A6E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77217E1A9729A91F0AE9CACF00E0B9AB /* Result-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657A8C35E55193C37ABBD12BC711CFFC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88642295E1FB6EB5FB22B2ABBA6F284 /* BrightFutures-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0DB5153C967D177AD16AC72A39385D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68BDDC42B4853CC16D3B16E64ABBFE1B /* Wasabi-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE0EE88F3A9CAA39CE902410339FE390 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				627C8C5A42DDC99E253ECAAD7E7D0A80 /* Pods-Wasabi-iOS_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B575DA80226A9F96FBE950025125BE09 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A3573EAB1C05D0FAB3E7BA2A91A946D /* Pods-Wasabi-iOS_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		016434770F3C959264876EA9F23B8C8E /* Pods-Wasabi-iOS_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89D773F283A089DDB9634A18E8FD9A50 /* Build configuration list for PBXNativeTarget "Pods-Wasabi-iOS_Tests" */;
+			buildPhases = (
+				EE23738B4F15C67A1546DB43755F70AD /* Sources */,
+				44F018AA5AAAEC5333D68F259787BA00 /* Frameworks */,
+				AE0EE88F3A9CAA39CE902410339FE390 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				672868B853FF9C72A8B37112AE32528E /* PBXTargetDependency */,
+			);
+			name = "Pods-Wasabi-iOS_Tests";
+			productName = "Pods-Wasabi-iOS_Tests";
+			productReference = C4F08C48322366B37C22AF42F3A4DABE /* Pods_Wasabi_iOS_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4551A02DCD158A5143D803E0FE76C4F6 /* BrightFutures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B672D37492B7A470C959A56DEDEF5E1F /* Build configuration list for PBXNativeTarget "BrightFutures" */;
+			buildPhases = (
+				658F019914606347AE91EBEC28DA02F0 /* Sources */,
+				38CB1092BDC921FC648FB1EAD99D9361 /* Frameworks */,
+				657A8C35E55193C37ABBD12BC711CFFC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95400C1D68343568C91FD888D532F43F /* PBXTargetDependency */,
+			);
+			name = BrightFutures;
+			productName = BrightFutures;
+			productReference = BEB0794C87475976F27CD05E366F7B53 /* BrightFutures.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5F6B6B06AE4A448F227A8F9FF648BC10 /* Pods-Wasabi-iOS_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A21618B626EEA1CAFD038BE84AB68CD6 /* Build configuration list for PBXNativeTarget "Pods-Wasabi-iOS_Example" */;
+			buildPhases = (
+				DA7EEA7F9DE89F549BDEB5971D2239EE /* Sources */,
+				731EE8760A7833E2EB3795CFFF89A2F9 /* Frameworks */,
+				B575DA80226A9F96FBE950025125BE09 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98079E5CF046EBC4F7E1F07DF4520DF3 /* PBXTargetDependency */,
+				D642EC08D3F98BC8E5A0C1FC3FA6E86B /* PBXTargetDependency */,
+				401C082F8D24932C5CDA41AEF41AA7F8 /* PBXTargetDependency */,
+			);
+			name = "Pods-Wasabi-iOS_Example";
+			productName = "Pods-Wasabi-iOS_Example";
+			productReference = BF2D1A6FC7E48FC987A5177746D7E81A /* Pods_Wasabi_iOS_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9635253DB78A55B225F1CD49AF36074E /* Wasabi-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F46CE77DFE2025E8F387ADF4A6A71BF /* Build configuration list for PBXNativeTarget "Wasabi-iOS" */;
+			buildPhases = (
+				A4302EAFF23132520C14F594151EC28F /* Sources */,
+				1B58BC64EC345821E285E5CFB8A35807 /* Frameworks */,
+				A0DB5153C967D177AD16AC72A39385D8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DD098C0752FA7A12219AB20AAD5530E /* PBXTargetDependency */,
+				8B5D4392010E7E153427AA7D4A6437E2 /* PBXTargetDependency */,
+			);
+			name = "Wasabi-iOS";
+			productName = "Wasabi-iOS";
+			productReference = 90C63663A4A722AB93E12FCA773F1A6F /* Wasabi_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98CC12EEDCA0ADE298C62268125E8304 /* Result */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D591FFAD2AE039FA44A37DA6EEE9CD13 /* Build configuration list for PBXNativeTarget "Result" */;
+			buildPhases = (
+				2DE86A79E3FEB97F0F8E6C89CB07B47C /* Sources */,
+				BC846C5D54A6237608C0F6119E60EB13 /* Frameworks */,
+				49FC9E2A2A3595A5A25198389607A6E7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Result;
+			productName = Result;
+			productReference = 8F393A389C163E2EA7A3AB58F438A0E5 /* Result.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1EF4746010F0BF9818D74B8B4A3418A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4551A02DCD158A5143D803E0FE76C4F6 /* BrightFutures */,
+				5F6B6B06AE4A448F227A8F9FF648BC10 /* Pods-Wasabi-iOS_Example */,
+				016434770F3C959264876EA9F23B8C8E /* Pods-Wasabi-iOS_Tests */,
+				98CC12EEDCA0ADE298C62268125E8304 /* Result */,
+				9635253DB78A55B225F1CD49AF36074E /* Wasabi-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DE86A79E3FEB97F0F8E6C89CB07B47C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				022E4F514A2A0B20AD41E2E71802C4B6 /* Result-dummy.m in Sources */,
+				D499630C42A1BC53E7BE2D1EE20819B9 /* Result.swift in Sources */,
+				6D91A43E587F9D2C8A6988C6932E7A12 /* ResultProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		658F019914606347AE91EBEC28DA02F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A94090F9E6E52CB38B11A328B01BA8C /* Async.swift in Sources */,
+				5888C725C19F3C8C43B1AEFA7917C33E /* AsyncType+Debug.swift in Sources */,
+				2244F884A18E3F9BFF659C460C1C1F97 /* AsyncType+ResultType.swift in Sources */,
+				1D09397B9B6F32408C40509E8BA3B3B5 /* AsyncType.swift in Sources */,
+				B56CF8D1DB2BB0B5A196A44C8E538762 /* BrightFutures-dummy.m in Sources */,
+				964859B824FF437D8BADB3DD72E26B69 /* Dispatch+BrightFutures.swift in Sources */,
+				F28FFD679440F582FA473A1E816262E4 /* Errors.swift in Sources */,
+				495C3055254AF5A66CF1D1690513AD13 /* ExecutionContext.swift in Sources */,
+				FF6B85305A1A7402CD4ECA474A25D080 /* Future.swift in Sources */,
+				4BA88411A73D95E600EF8420B7A1592D /* InvalidationToken.swift in Sources */,
+				3EEEE02AD5C45BACC1F9381B9DB41431 /* MutableAsyncType+ResultType.swift in Sources */,
+				90D28C0331787AE73F19F7C148A2BA4D /* MutableAsyncType.swift in Sources */,
+				0457A1C9FE3AE4576BE286D9F8C49F93 /* NSOperationQueue+BrightFutures.swift in Sources */,
+				15F801282F3290E37F11D67056162741 /* Number+BrightFutures.swift in Sources */,
+				9F6262C79DBD7F79FD9C5C5659FB2D2E /* Promise.swift in Sources */,
+				B050B15EC964DC20A071903FDF1E5ABD /* Result+BrightFutures.swift in Sources */,
+				03A121CFE13FFEA740F9C55D15BB74C2 /* SequenceType+BrightFutures.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4302EAFF23132520C14F594151EC28F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D1DF618BEB5A0FF80DEB66ACF63B4A2 /* Wasabi-iOS-dummy.m in Sources */,
+				47DCED7C2C006DFB42914EF978EF3BC0 /* WasabiAPIClient.swift in Sources */,
+				0988FE252076D13C005AE3D1 /* WasabiRequests.swift in Sources */,
+				77A70C82BD19F6354729CBD70808FDEC /* WasabiAPITypes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA7EEA7F9DE89F549BDEB5971D2239EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DB6B74FCB3324D18066D290866FB95 /* Pods-Wasabi-iOS_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE23738B4F15C67A1546DB43755F70AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C1F7F0817E33CB5F8FFA1A1073CB4B /* Pods-Wasabi-iOS_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		401C082F8D24932C5CDA41AEF41AA7F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Wasabi-iOS";
+			target = 9635253DB78A55B225F1CD49AF36074E /* Wasabi-iOS */;
+			targetProxy = FDE3D60C3E8DB9A755036F8052BDE3D7 /* PBXContainerItemProxy */;
+		};
+		672868B853FF9C72A8B37112AE32528E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Wasabi-iOS_Example";
+			target = 5F6B6B06AE4A448F227A8F9FF648BC10 /* Pods-Wasabi-iOS_Example */;
+			targetProxy = 78E67258EEB54DB4AF69A0A3AF93FD8D /* PBXContainerItemProxy */;
+		};
+		8B5D4392010E7E153427AA7D4A6437E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Result;
+			target = 98CC12EEDCA0ADE298C62268125E8304 /* Result */;
+			targetProxy = 2FAC73B7D166D94775264C430FF98A6B /* PBXContainerItemProxy */;
+		};
+		95400C1D68343568C91FD888D532F43F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Result;
+			target = 98CC12EEDCA0ADE298C62268125E8304 /* Result */;
+			targetProxy = A48E8FDB3BEF5800600422FD4DA6DC8B /* PBXContainerItemProxy */;
+		};
+		98079E5CF046EBC4F7E1F07DF4520DF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BrightFutures;
+			target = 4551A02DCD158A5143D803E0FE76C4F6 /* BrightFutures */;
+			targetProxy = 933E3F58F348BE8717F16D5D08ED1397 /* PBXContainerItemProxy */;
+		};
+		9DD098C0752FA7A12219AB20AAD5530E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BrightFutures;
+			target = 4551A02DCD158A5143D803E0FE76C4F6 /* BrightFutures */;
+			targetProxy = A4FA35946433CA5D8ECCDD9B124A4250 /* PBXContainerItemProxy */;
+		};
+		D642EC08D3F98BC8E5A0C1FC3FA6E86B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Result;
+			target = 98CC12EEDCA0ADE298C62268125E8304 /* Result */;
+			targetProxy = 764399A9BAAD30FC564FC48E48FDB718 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07CF46073B7110BDA1FE3E853EE44F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8A36DEAA0851DD85DFA00B55F9ADF93 /* Pods-Wasabi-iOS_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Wasabi-iOS_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Wasabi-iOS_Tests/Pods-Wasabi-iOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		08638A96A528B1EC32DE62F8A728389D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		36D7CF90045F60169C86832D4BF0066B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF4373E09F9D92E3FD364E24E0DCDA2E /* Pods-Wasabi-iOS_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Wasabi-iOS_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Wasabi-iOS_Example/Pods-Wasabi-iOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		36F53C954DA2F3029D1E2EF76C917E3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12023C2B6D1D68344494E8318EBB24B7 /* Result.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Result/Result-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Result/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Result/Result.modulemap";
+				PRODUCT_MODULE_NAME = Result;
+				PRODUCT_NAME = Result;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		43149BD2D9D3BFAA1F9E8861AFAEB5D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01B1E35450D4260436244F2E31A8CB9A /* Wasabi-iOS.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Wasabi-iOS/Wasabi-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Wasabi-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Wasabi-iOS/Wasabi-iOS.modulemap";
+				PRODUCT_MODULE_NAME = Wasabi_iOS;
+				PRODUCT_NAME = Wasabi_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		68A2F014403A56A6C9A9BD1E6278FDFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12023C2B6D1D68344494E8318EBB24B7 /* Result.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Result/Result-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Result/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Result/Result.modulemap";
+				PRODUCT_MODULE_NAME = Result;
+				PRODUCT_NAME = Result;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6FB10C02F59F31B07C1CA0BA10346C17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F264E99CEF028E924515FB77DC84AB78 /* Pods-Wasabi-iOS_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Wasabi-iOS_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Wasabi-iOS_Example/Pods-Wasabi-iOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7C58823D2B68B0B4FE1B97EA794F5A48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA110ED6871964ABA6A2AF75EFB50660 /* BrightFutures.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BrightFutures/BrightFutures-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BrightFutures/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BrightFutures/BrightFutures.modulemap";
+				PRODUCT_MODULE_NAME = BrightFutures;
+				PRODUCT_NAME = BrightFutures;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		99EA0CD046C7183384D6C4CB204CDD30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F8C1A0459B7C660FEAF38518509F33C /* Pods-Wasabi-iOS_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Wasabi-iOS_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Wasabi-iOS_Tests/Pods-Wasabi-iOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DD0DB767FEDC165C351A1E1AA63DC7A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01B1E35450D4260436244F2E31A8CB9A /* Wasabi-iOS.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Wasabi-iOS/Wasabi-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Wasabi-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Wasabi-iOS/Wasabi-iOS.modulemap";
+				PRODUCT_MODULE_NAME = Wasabi_iOS;
+				PRODUCT_NAME = Wasabi_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E45BDF41C267C999D8E1C3B7D06CAFED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA110ED6871964ABA6A2AF75EFB50660 /* BrightFutures.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BrightFutures/BrightFutures-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BrightFutures/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BrightFutures/BrightFutures.modulemap";
+				PRODUCT_MODULE_NAME = BrightFutures;
+				PRODUCT_NAME = BrightFutures;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */,
+				08638A96A528B1EC32DE62F8A728389D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F46CE77DFE2025E8F387ADF4A6A71BF /* Build configuration list for PBXNativeTarget "Wasabi-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43149BD2D9D3BFAA1F9E8861AFAEB5D2 /* Debug */,
+				DD0DB767FEDC165C351A1E1AA63DC7A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89D773F283A089DDB9634A18E8FD9A50 /* Build configuration list for PBXNativeTarget "Pods-Wasabi-iOS_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07CF46073B7110BDA1FE3E853EE44F05 /* Debug */,
+				99EA0CD046C7183384D6C4CB204CDD30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A21618B626EEA1CAFD038BE84AB68CD6 /* Build configuration list for PBXNativeTarget "Pods-Wasabi-iOS_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FB10C02F59F31B07C1CA0BA10346C17 /* Debug */,
+				36D7CF90045F60169C86832D4BF0066B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B672D37492B7A470C959A56DEDEF5E1F /* Build configuration list for PBXNativeTarget "BrightFutures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E45BDF41C267C999D8E1C3B7D06CAFED /* Debug */,
+				7C58823D2B68B0B4FE1B97EA794F5A48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D591FFAD2AE039FA44A37DA6EEE9CD13 /* Build configuration list for PBXNativeTarget "Result" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68A2F014403A56A6C9A9BD1E6278FDFB /* Debug */,
+				36F53C954DA2F3029D1E2EF76C917E3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

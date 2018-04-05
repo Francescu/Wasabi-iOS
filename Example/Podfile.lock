@@ -1,0 +1,27 @@
+PODS:
+  - BrightFutures (6.0.1):
+    - Result (~> 3.2.4)
+  - Result (3.2.4)
+  - Wasabi-iOS (0.1.0):
+    - BrightFutures
+
+DEPENDENCIES:
+  - Wasabi-iOS (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - BrightFutures
+    - Result
+
+EXTERNAL SOURCES:
+  Wasabi-iOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BrightFutures: 9c03dab79e73ffe504b7bafc15c5bfdaeee54890
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  Wasabi-iOS: c34b3ac2d72e7526c6b4345909547b567868c87c
+
+PODFILE CHECKSUM: 76f97966276dbfb8d796564502a666260989a83d
+
+COCOAPODS: 1.5.0
