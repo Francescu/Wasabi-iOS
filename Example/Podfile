@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Wasabi-iOS_Example' do
+  pod 'Wasabi-iOS', :path => '../'
+
+  target 'Wasabi-iOS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
