@@ -29,12 +29,12 @@ public struct WasabiAssignmentRequest: WasabiAPIRequestProtocol {
 }
 
 public struct WasabiAssignmentResponse: WasabiAPIResponseProtocol {
-    enum Status: String {
+    public enum Status: String {
         case new = "NEW_ASSIGNMENT", existing = "EXISTING_ASSIGNMENT"
     }
     
-    let status: Status
-    let assignment: String
+    public let status: Status
+    public let assignment: String
     // TODO: let payload: [AnyHashable: Any]?
     
     public init?(rawAPIResponse: Any) {
