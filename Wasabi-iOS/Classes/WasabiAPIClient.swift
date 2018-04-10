@@ -26,7 +26,7 @@ public class WasabiAPIClient {
         
     }
     
-    public func request<T: WasabiAPIRequestProtocol>(_ request: T) -> Future<T.Response, WasabiAPIError> {
+    @discardableResult public func request<T: WasabiAPIRequestProtocol>(_ request: T) -> Future<T.Response, WasabiAPIError> {
         return Future<T.Response, WasabiAPIError> { completion in
             guard let urlRequest = self.urlRequestFor(request),
                 let _ = urlRequest.url
